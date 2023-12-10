@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "3HFexnYRtOshCmIf+sBZHucda7JD5DQGacn7w3EQu6I=",
+  "Source": "Vezeeta.API",
+  "BasePath": "_content/Vezeeta.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Vezeeta.API\\wwwroot",
+      "Source": "Vezeeta.API",
+      "ContentRoot": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\",
+      "BasePath": "_content/Vezeeta.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\files\\images\\66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg",
+      "SourceId": "Vezeeta.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\",
+      "BasePath": "_content/Vezeeta.API",
+      "RelativePath": "files/images/66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\images\\66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg"
+    }
+  ]
+}
