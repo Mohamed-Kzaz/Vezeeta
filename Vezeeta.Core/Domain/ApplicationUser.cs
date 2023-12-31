@@ -17,7 +17,8 @@ namespace Vezeeta.Core.Domain
         public string DateOfBirth { get; set; }
         public int? SpecializationId { get; set; } //For Doctor
         public virtual Specialization Specialization { get; set; }
-        public virtual ICollection<Booking> Bookings { get; set; } = new HashSet<Booking>();
+        public virtual ICollection<Booking> PatientBookings { get; set; } = new HashSet<Booking>(); // Patient
+        public virtual ICollection<Booking> DoctorBookings { get; set; } = new HashSet<Booking>(); // Doctor
         public virtual ICollection<Appointment> Appointments { get; set; } = new HashSet<Appointment>(); //For Doctor
     }
 }

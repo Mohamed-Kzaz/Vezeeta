@@ -15,3 +15,4 @@ C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\bin\Debug\n
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Core.pdb
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.csproj.AssemblyReference.cache
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.csproj.CopyComplete
+C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.sourcelink.json

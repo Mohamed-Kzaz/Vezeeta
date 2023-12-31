@@ -1,13 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 using Vezeeta.Core.Domain;
 using Vezeeta.Core.Service;
 
@@ -27,6 +23,7 @@ namespace Vezeeta.Service
             // Private Claims [User - Defined]
             var authClaims = new List<Claim>()
             {
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.GivenName, user.FirstName),
                 new Claim(ClaimTypes.GivenName, user.LastName),
                 new Claim(ClaimTypes.Email, user.Email),

@@ -13,3 +13,4 @@ C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Repository\obj\Debu
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Repository\obj\Debug\net6.0\refint\Vezeeta.Repository.dll
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Repository\obj\Debug\net6.0\Vezeeta.Repository.pdb
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Repository\obj\Debug\net6.0\ref\Vezeeta.Repository.dll
+C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Repository\obj\Debug\net6.0\Vezeeta.Repository.sourcelink.json

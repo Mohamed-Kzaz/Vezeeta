@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\files\\images\\66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg",
-      "PackagePath": "staticwebassets\\files\\images\\66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg"
+      "Id": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\files\\images\\902724fa-eadf-4d7a-b441-5da7f3525058formal.jpg",
+      "PackagePath": "staticwebassets\\files\\images\\902724fa-eadf-4d7a-b441-5da7f3525058formal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\files\\images\\d71150f9-2b5e-460e-8c6d-674cda8997981.jpeg",
+      "PackagePath": "staticwebassets\\files\\images\\d71150f9-2b5e-460e-8c6d-674cda8997981.jpeg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Vezeeta.API.Microsoft.AspNetCore.StaticWebAssets.props",

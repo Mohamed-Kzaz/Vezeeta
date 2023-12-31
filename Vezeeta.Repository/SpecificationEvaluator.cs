@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,19 +16,18 @@ namespace Vezeeta.Repository
         public static IQueryable<TEntity> GetQuery(IQueryable<TEntity> inputQuery, ISpecification<TEntity> spec)
         {
             // Comments For Just Clarification
-            var query = inputQuery; 
+            var query = inputQuery;
 
-            if (spec.Criteria is not null) 
+            if (spec.Criteria is not null)
                 query = query.Where(spec.Criteria);
-
 
             if (spec.IsPaginationEnabled)
                 query = query.Skip(spec.Skip).Take(spec.Take);
 
-
             // We Used Aggregate To Combine Query
-            query = spec.Includes.Aggregate(query, (currentQuery, includeExpression) => currentQuery.Include(includeExpression));
+            query = spec.Includes.Aggregate(query, (current, include) => include(current));
 
+            // Return The Final Query
             return query;
         }
     }

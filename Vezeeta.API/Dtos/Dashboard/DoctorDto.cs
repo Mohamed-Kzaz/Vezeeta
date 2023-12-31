@@ -1,6 +1,6 @@
 ﻿using Vezeeta.Core.Domain.Enums;
 
-namespace Vezeeta.API.Dtos.Admin
+namespace Vezeeta.API.Dtos.Dashboard
 {
     public class DoctorDto
     {
@@ -9,7 +9,7 @@ namespace Vezeeta.API.Dtos.Admin
         public string LastName { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
-        public int? SpecializationId { get; set; }
+        public string Specialization { get; set; }
         public Gender Gender { get; set; }
         public string DateOfBirth { get; set; }
     }

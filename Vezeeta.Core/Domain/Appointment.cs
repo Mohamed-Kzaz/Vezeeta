@@ -12,7 +12,5 @@ namespace Vezeeta.Core.Domain
         public string DoctorId { get; set; } //For Doctor
         public virtual ApplicationUser Doctor { get; set; }
         public virtual ICollection<AppointmentDay> AppointmentDays { get; set; } = new HashSet<AppointmentDay>();
-        public virtual ICollection<Booking> Bookings { get; set; } = new HashSet<Booking>();
-
     }
 }

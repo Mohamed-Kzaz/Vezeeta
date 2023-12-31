@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Vezeeta.Core.Domain;
 using Vezeeta.Core.Repository;
 using Vezeeta.Core.Specifications;
+using Vezeeta.Core.Specifications.AppUser;
 using Vezeeta.Repository.Data;
 
 namespace Vezeeta.Repository

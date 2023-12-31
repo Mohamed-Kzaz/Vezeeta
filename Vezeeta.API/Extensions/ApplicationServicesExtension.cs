@@ -2,8 +2,10 @@
 using Vezeeta.API.Errors;
 using Vezeeta.API.Helpers;
 using Vezeeta.Core.Repository;
+using Vezeeta.Core.Service;
 using Vezeeta.Core.UnitOfWork;
 using Vezeeta.Repository;
+using Vezeeta.Service;
 
 namespace Vezeeta.API.Extensions
 {
@@ -13,6 +15,9 @@ namespace Vezeeta.API.Extensions
         {
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAppointmentService, AppointmentService>();
+            services.AddScoped<IBookingService, BookingService>();
+            services.AddScoped<IDashboardService, DashboardService>();
             services.AddAutoMapper(typeof(MappingProfiles));
 
             services.Configure<ApiBehaviorOptions>(options =>

@@ -81,3 +81,4 @@ C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.API\bin\Debug\net6.
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.API\bin\Debug\net6.0\Vezeeta.Service.dll
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.API\bin\Debug\net6.0\Vezeeta.Service.pdb
+C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.API\obj\Debug\net6.0\Vezeeta.API.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3HFexnYRtOshCmIf+sBZHucda7JD5DQGacn7w3EQu6I=",
+  "Hash": "JkNAB5jxyCyHLrHA1IZtY36OFJXmOdXJ3xBcNG/AIss=",
   "Source": "Vezeeta.API",
   "BasePath": "_content/Vezeeta.API",
   "Mode": "Default",
@@ -17,21 +17,42 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\files\\images\\66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg",
+      "Identity": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\files\\images\\902724fa-eadf-4d7a-b441-5da7f3525058formal.jpg",
       "SourceId": "Vezeeta.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\",
       "BasePath": "_content/Vezeeta.API",
-      "RelativePath": "files/images/66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg",
+      "RelativePath": "files/images/902724fa-eadf-4d7a-b441-5da7f3525058formal.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\files\\images\\66fa125b-0d1d-457a-9ea7-d7f9398fbb11received_1722640174707968.jpeg"
+      "OriginalItemSpec": "wwwroot\\files\\images\\902724fa-eadf-4d7a-b441-5da7f3525058formal.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\files\\images\\d71150f9-2b5e-460e-8c6d-674cda8997981.jpeg",
+      "SourceId": "Vezeeta.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.API\\wwwroot\\",
+      "BasePath": "_content/Vezeeta.API",
+      "RelativePath": "files/images/d71150f9-2b5e-460e-8c6d-674cda8997981.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\images\\d71150f9-2b5e-460e-8c6d-674cda8997981.jpeg"
     }
   ]
 }

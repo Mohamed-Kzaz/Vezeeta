@@ -90,8 +90,8 @@ namespace Vezeeta.API.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpPost("register/Doctor")]
-        public async Task<ActionResult<UserDto>> RegisterDoctor([FromForm]RegisterDoctorDto model)
+        [HttpPost("register/doctor")]
+        public async Task<ActionResult<UserDto>> RegisterDoctor([FromForm] RegisterDoctorDto model)
         {
             if (CheckEmailExists(model.Email).Result.Value)
                 return BadRequest(new ApiValidationErrorResponse() { Errors = new string[] { "this email is already in use" } });
@@ -127,7 +127,7 @@ namespace Vezeeta.API.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpPut("UpdateDoctor/{userId}")]
+        [HttpPut("updatedoctor/{userId}")]
         public async Task<ActionResult<UserDto>> UpdateDoctor(string userId, [FromForm] RegisterDoctorDto model)
         {
             var user = await _userManager.FindByIdAsync(userId);
@@ -161,7 +161,7 @@ namespace Vezeeta.API.Controllers
         }
 
         [Authorize(Roles = "Admin")]
-        [HttpDelete("DeleteDoctor/{userId}")]
+        [HttpDelete("deletedoctor/{userId}")]
         public async Task<ActionResult> DeleteDoctor(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
@@ -171,16 +171,12 @@ namespace Vezeeta.API.Controllers
                 return NotFound(new ApiResponse(404, "User not found"));
             }
 
-            var result = await _userManager.DeleteAsync(user);
-
-            if (!result.Succeeded)
-            {
-                return BadRequest(new ApiResponse(400, "Failed to delete user"));
-            }
+            await _userManager.DeleteAsync(user);
 
             DocumentSettings.DeleteFile(user.ImageUrl, "images");
 
             return Ok(new ApiResponse(200, "User deleted successfully"));
+
         }
 
         [HttpGet("emailexists")]

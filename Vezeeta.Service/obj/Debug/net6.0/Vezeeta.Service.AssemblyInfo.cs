@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vezeeta.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43d3390d9472ea02fc5771c21b214a28c903b6e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vezeeta.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vezeeta.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

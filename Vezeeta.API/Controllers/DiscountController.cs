@@ -79,7 +79,7 @@ namespace Vezeeta.API.Controllers
             return Ok(new ApiResponse(200, "Updated Successfully"));
         }
 
-        [HttpPut("DeActivate/{id}")]
+        [HttpPut("deactivate/{id}")]
         public async Task<ActionResult> DeActivate(int id)
         {
             var discount = await _unitOfWork.Repository<Discount>().GetByIdAsync(id);
