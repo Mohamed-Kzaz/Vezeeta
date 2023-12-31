@@ -1,1 +1,1 @@
-# algoriza-internship-BE120
+# Vezeeta is the digital healthcare booking platform
