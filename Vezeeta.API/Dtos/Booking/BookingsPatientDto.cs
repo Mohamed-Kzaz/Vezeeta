@@ -5,6 +5,7 @@ namespace Vezeeta.API.Dtos.Booking
     // Doctors data that will be presented to the patient.
     public class BookingsPatientDto
     {
+        public int Id { get; set; }
         public string ImageUrl { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

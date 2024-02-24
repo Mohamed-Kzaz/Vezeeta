@@ -53,8 +53,6 @@ namespace Vezeeta.API.Helpers
                 .ForMember(dest => dest.DoctorFirstName, opt => opt.MapFrom(src => src.Doctor.FirstName))
                 .ForMember(dest => dest.DoctorLastName, opt => opt.MapFrom(src => src.Doctor.LastName))
                 .ForMember(dest => dest.Specialization, opt => opt.MapFrom(src => src.Doctor.Specialization.SpecializeName))
-                .ForMember(dest => dest.Day, opt => opt.MapFrom(src => src.Day))
-                .ForMember(dest => dest.Time, opt => opt.MapFrom(src => src.Time))
                 .ForMember(dest => dest.Price, opt => opt.MapFrom(src => src.Price))
                 .ForMember(dest => dest.DiscountCode, opt => opt.MapFrom(src => src.Discount.DiscountCode))
                 .ForMember(dest => dest.FinalPrice, opt => opt.MapFrom(src => src.FinalPrice))
@@ -73,9 +71,8 @@ namespace Vezeeta.API.Helpers
                 .ForMember(dest => dest.ImageUrl, opt => opt.MapFrom<BookingsDoctorImageUrlResolver>())
                 .ForMember(dest => dest.Gender, opt => opt.MapFrom(src => src.Patient.Gender))
                 .ForMember(dest => dest.Phone, opt => opt.MapFrom(src => src.Patient.PhoneNumber))
-                .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Patient.Email))
-                .ForMember(dest => dest.Day, opt => opt.MapFrom(src => src.Day))
-                .ForMember(dest => dest.Time, opt => opt.MapFrom(src => src.Time));
+                .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Patient.Email));
+
         }
     }
 }

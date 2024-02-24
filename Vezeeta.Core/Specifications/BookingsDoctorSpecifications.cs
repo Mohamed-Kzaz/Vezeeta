@@ -12,7 +12,7 @@ namespace Vezeeta.Core.Specifications
     {
         public BookingsDoctorSpecifications(string doctortId, SpecificationsParams specParams)
            : base(B => (B.DoctorId == doctortId) &&
-           (string.IsNullOrEmpty(specParams.Search) || B.Day.ToString().Contains(specParams.Search)) // Search By Day
+           string.IsNullOrEmpty(specParams.Search)
            )
         {
             Includes.Add(B => B.Include(B => B.Patient));

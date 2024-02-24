@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Vezeeta.Repository
-build_property.ProjectDir = C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Repository\
+build_property.ProjectDir = C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Repository\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

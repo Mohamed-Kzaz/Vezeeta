@@ -18,6 +18,7 @@ namespace Vezeeta.API.Extensions
             services.AddScoped<IAppointmentService, AppointmentService>();
             services.AddScoped<IBookingService, BookingService>();
             services.AddScoped<IDashboardService, DashboardService>();
+            services.AddScoped<IDiscountService, DiscountService>();
             services.AddAutoMapper(typeof(MappingProfiles));
 
             services.Configure<ApiBehaviorOptions>(options =>

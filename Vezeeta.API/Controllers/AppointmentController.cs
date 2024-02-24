@@ -36,7 +36,7 @@ namespace Vezeeta.API.Controllers
 
         [Authorize(Roles = "Patient")]
         [HttpGet("all/appointments")]
-        public async Task<ActionResult<Pagination<AppointmentForPatientDto>>> GetAllPatients([FromQuery] SpecificationsParams specParams)
+        public async Task<ActionResult<Pagination<AppointmentForPatientDto>>> GetAllForPatients([FromQuery] SpecificationsParams specParams)
         {
             var appointmentsWithSpec = await _appointmentService.GetAppointmentsForPatientAsync(specParams);
 

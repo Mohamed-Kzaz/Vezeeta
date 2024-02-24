@@ -19,7 +19,6 @@ namespace Vezeeta.Core.Specifications
            : base(B => B.PatientId == patientId)
         {
             Includes.Add(B => B.Include(B => B.Doctor).ThenInclude(D => D.Specialization));
-            Includes.Add(B => B.Include(B => B.Discount));
         }
 
     }

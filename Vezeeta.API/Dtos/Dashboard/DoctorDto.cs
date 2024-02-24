@@ -4,6 +4,7 @@ namespace Vezeeta.API.Dtos.Dashboard
 {
     public class DoctorDto
     {
+        public string Id { get; set; }
         public string? ImageUrl { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

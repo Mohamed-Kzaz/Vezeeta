@@ -13,6 +13,7 @@ namespace Vezeeta.Core.Repository
         Task<IReadOnlyList<T>> GetAllWithSpecAsync(ISpecification<T> spec);
         Task<T> GetEntityWithSpecAsync(ISpecification<T> spec);
         Task<IReadOnlyList<T>> GetAllAsync();
+        Task<T> GetByStringAsync(string value);
         Task<T> GetByIdAsync(int id);
         Task Add(T entity);
         void Update(T entity);

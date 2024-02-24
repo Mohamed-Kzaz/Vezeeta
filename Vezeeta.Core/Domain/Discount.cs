@@ -12,7 +12,7 @@ namespace Vezeeta.Core.Domain
         public string DiscountCode { get; set; }
         public DiscountType DiscountType { get; set; }
         public decimal Value { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
         public virtual ICollection<Booking> Bookings { get; set; } = new HashSet<Booking>();
     }
 }

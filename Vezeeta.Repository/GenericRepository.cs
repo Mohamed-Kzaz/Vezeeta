@@ -31,6 +31,9 @@ namespace Vezeeta.Repository
         public async Task<IReadOnlyList<T>> GetAllAsync()
             => await _dbContext.Set<T>().ToListAsync();
 
+        public async Task<T> GetByStringAsync(string value)
+           => await _dbContext.Set<T>().FindAsync(value);
+
         public async Task<T> GetByIdAsync(int id)
             => await _dbContext.Set<T>().FindAsync(id);
 

@@ -24,12 +24,14 @@ namespace Vezeeta.API.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IBookingService _bookingService;
+        private readonly IDiscountService _discountService;
         private readonly IMapper _mapper;
 
-        public BookingController(IUnitOfWork unitOfWork, IBookingService bookingService, IMapper mapper)
+        public BookingController(IUnitOfWork unitOfWork, IBookingService bookingService, IDiscountService discountService, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _bookingService = bookingService;
+            _discountService = discountService;
             _mapper = mapper;
         }
 
@@ -40,9 +42,13 @@ namespace Vezeeta.API.Controllers
             if (!ModelState.IsValid)
                 return NotFound(new ApiResponse(400));
 
-            if (model.DiscountId != null)
+            var patientId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (!string.IsNullOrEmpty(model.DiscountCode))
             {
-                var discount = await _unitOfWork.Repository<Discount>().GetByIdAsync(model.DiscountId.Value);
+                var discountId = await _discountService.GetDiscountIdByCodeAsync(model.DiscountCode);
+
+                var discount = await _unitOfWork.Repository<Discount>().GetByIdAsync(discountId);
 
                 if (discount.IsActive == false)
                     return Ok(new ApiResponse(404, "Sorry, Discount Code Not Found"));
@@ -56,12 +62,12 @@ namespace Vezeeta.API.Controllers
 
                 var booking = new Booking()
                 {
-                    PatientId = model.PatientId,
+                    PatientId = patientId,
                     DoctorId = model.DoctorId,
-                    Day = model.Day,
-                    Time = model.Time,
+                    DayId = model.DayId,
+                    TimeId = model.TimeId,
                     Price = model.Price,
-                    DiscountId = model.DiscountId,
+                    DiscountCode = model.DiscountCode,
                     FinalPrice = finalPrice
                 };
 
@@ -71,10 +77,10 @@ namespace Vezeeta.API.Controllers
             {
                 var booking = new Booking()
                 {
-                    PatientId = model.PatientId,
+                    PatientId = patientId,
                     DoctorId = model.DoctorId,
-                    Day = model.Day,
-                    Time = model.Time,
+                    DayId = model.DayId,
+                    TimeId = model.TimeId,
                     Price = model.Price,
                 };
 

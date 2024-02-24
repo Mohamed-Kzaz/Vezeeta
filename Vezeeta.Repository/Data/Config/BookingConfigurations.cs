@@ -23,12 +23,6 @@ namespace Vezeeta.Repository.Data.Config
                 .WithMany(D => D.DoctorBookings)
                 .HasForeignKey(B => B.DoctorId);
 
-            builder.Property(B => B.Day)
-               .HasConversion(
-               Day => Day.ToString(),
-               Day => (Days)Enum.Parse(typeof(Days), Day)
-               );
-
             builder.Property(B => B.Status)
                .HasConversion(
                Status => Status.ToString(),

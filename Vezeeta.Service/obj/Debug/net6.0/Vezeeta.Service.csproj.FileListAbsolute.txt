@@ -16,3 +16,21 @@ C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\bin\Debug\n
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.csproj.AssemblyReference.cache
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.csproj.CopyComplete
 C:\Users\moham\OneDrive\Desktop\ASP Core API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.sourcelink.json
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.csproj.AssemblyReference.cache
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.AssemblyInfoInputs.cache
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.AssemblyInfo.cs
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.csproj.CoreCompileInputs.cache
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.sourcelink.json
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.dll
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\refint\Vezeeta.Service.dll
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.pdb
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Service.deps.json
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Service.dll
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Service.pdb
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Core.dll
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Repository.dll
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Core.pdb
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\bin\Debug\net6.0\Vezeeta.Repository.pdb
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\Vezeeta.Service.csproj.CopyComplete
+C:\Users\moham\OneDrive\Desktop\ASP API\Vezeeta\Vezeeta.Service\obj\Debug\net6.0\ref\Vezeeta.Service.dll

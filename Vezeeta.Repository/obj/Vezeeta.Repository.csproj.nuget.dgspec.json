@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj": {}
+    "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj": {
+    "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj",
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj",
         "projectName": "Vezeeta.Core",
-        "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Core\\obj\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj": {
+    "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj",
         "projectName": "Vezeeta.Repository",
-        "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj",
+        "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Repository\\Vezeeta.Repository.csproj",
         "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Repository\\obj\\",
+        "outputPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj": {
-                "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP Core API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj"
+              "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj": {
+                "projectPath": "C:\\Users\\moham\\OneDrive\\Desktop\\ASP API\\Vezeeta\\Vezeeta.Core\\Vezeeta.Core.csproj"
               }
             }
           }
